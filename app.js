@@ -15,7 +15,7 @@ const toWords = new ToWords({
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World!'); // plain text
 });
 
 app.get('/en/:number', (req, res) => {
